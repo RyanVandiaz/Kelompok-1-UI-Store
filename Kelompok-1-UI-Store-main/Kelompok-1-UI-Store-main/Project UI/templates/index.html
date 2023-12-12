@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href= "{{ url_for('static',filename='style.css') }}" rel="stylesheet" type="text/css"/>
+    <title>UI Store Website</title>
+</head>
+
+<body>
+
+    
+    <div class="container">
+
+        
+        <div class="form-container">
+            <form action="{{ url_for('login') }}" method="post" id="login-form">
+                <h2>Login</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Tidak Punya Akun ? <a href="{{ url_for('buatakun_hlm') }}">Buat Akun</a></p>
+        </div>
+
+
+    </div>
+</body>
+</html>

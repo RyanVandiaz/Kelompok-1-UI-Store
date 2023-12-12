@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href= "{{ url_for('static',filename='pembelian.css') }}" rel="stylesheet" type="text/css"/>
+    <title>UI Store Website</title>
+</head>
+<body>
+    <h1>Transaksi Gagal !</h1>
+    <p>Maaf, uang kamu belum cukup untuk membeli {{ item.name }}.</p>
+    <a href="{{ url_for('market') }}">Kembali ke Market</a>
+</body>
+</html>

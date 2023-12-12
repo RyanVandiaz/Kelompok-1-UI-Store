@@ -1,0 +1,104 @@
+[
+  {
+    "username": "jonathan",
+    "password": "123",
+    "balance": 49940,
+    "purchases": [
+      {
+        "id": "item1",
+        "T-Shirt UI Est.1849": "T-Shirt UI Est.1849",
+        "price": 195000,
+        "image": "model.png"
+      },
+      {
+        "id": "item2",
+        "Snapback UI": "Snapback UI",
+        "price": 85000,
+        "image": "topi.png"
+      },
+      {
+        "id": "item1",
+        "T-Shirt UI Est.1849": "T-Shirt UI Est.1849",
+        "price": 195000,
+        "image": "model.png"
+      },
+      {
+        "id": "item1",
+        "T-Shirt UI Est.1849": "T-Shirt UI Est.1849",
+        "price": 195000,
+        "image": "model.png"
+      },
+      {
+        "id": "item2",
+        "Snapback UI": "Snapback UI",
+        "price": 85000,
+        "image": "topi.png"
+      }
+    ]
+  },
+  {
+    "username": "andi",
+    "password": "123",
+    "balance": 720000,
+    "purchases": [
+      {
+        "id": "item1",
+        "T-Shirt UI Est.1849": "T-Shirt UI Est.1849",
+        "price": 195000,
+        "image": "model.png"
+      },
+      {
+        "id": "item2",
+        "Snapback UI": "Snapback UI",
+        "price": 85000,
+        "image": "topi.png"
+      }
+    ]
+  },
+  {
+    "username": "budi",
+    "password": "15",
+    "balance": 1000000
+  },
+  {
+    "username": "mawar",
+    "password": "123",
+    "balance": 1000000
+  },
+  {
+    "username": "aprianganteng",
+    "password": "123",
+    "balance": 1000000
+  },
+  {
+    "username": "ryan",
+    "password": "070405",
+    "balance": 550000,
+    "purchases": [
+      {
+        "id": "item1",
+        "T-Shirt UI Est.1849": "T-Shirt UI Est.1849",
+        "price": 195000,
+        "image": "model.png"
+      },
+      {
+        "id": "item2",
+        "Snapback UI": "Snapback UI",
+        "price": 85000,
+        "image": "topi.png"
+      },
+      {
+        "id": "item2",
+        "Snapback UI": "Snapback UI",
+        "price": 85000,
+        "image": "topi.png"
+      },
+      {
+        "id": "item2",
+        "Snapback UI": "Snapback UI",
+        "price": 85000,
+        "image": "topi.png"
+      }
+    ]
+  }
+]
